@@ -7,7 +7,7 @@
 using namespace cv;
 using namespace std;
 
-
+/*
 
 int main()
 {
@@ -32,7 +32,7 @@ int main()
 	cvtColor(src,gray,COLOR_BGR2GRAY);
 
 	//Mat sobel_x, sobel_y;
-	// 这里注意gray的深度为0，里面会进行一些列的+-*/操作，所以精度必须比原图的精度高
+	// 这里注意gray的深度为0，里面会进行一些列的 + - 操作，所以精度必须比原图的精度高
 	//Scharr(gray, sobel_x,CV_16S,1,0);
 	//Scharr(gray, sobel_y,CV_16S,0, 1);
 
@@ -48,10 +48,10 @@ int main()
 
 
 	Mat canny;
-
 	Canny(src,canny,50,150);
 	imshow("canny", canny);
 
 	waitKey(0);
 	return 0;
 }
+*/

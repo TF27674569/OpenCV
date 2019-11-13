@@ -134,6 +134,7 @@
     <ClCompile Include="OpenCV5.cpp" />
     <ClCompile Include="OpenCV6.cpp" />
     <ClCompile Include="OpenCV7.cpp" />
+    <ClCompile Include="OpenCV8.cpp" />
     <ClCompile Include="OpenCV_YZM.cpp" />
   </ItemGroup>
   <ItemGroup>

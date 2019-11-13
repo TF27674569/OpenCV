@@ -39,6 +39,9 @@
     <ClCompile Include="OpenCV7.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="OpenCV8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="C:\Users\ubt\Desktop\opencv_7.png">
