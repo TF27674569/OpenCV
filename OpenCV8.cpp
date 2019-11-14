@@ -78,7 +78,7 @@ int main()
 	{
 		for (int j = 0; j < src.cols; j++)
 		{
-			// 当前的x =原来行的最后一个
+			// 当前的x = 原来行的最后一个（位置不是像素值）
 			mat_x.at<float>(i, j) = static_cast<float>(src.cols -j);
 			// 当前的y  = 原来y的位置
 			mat_y.at<float>(i, j) = i;
@@ -93,7 +93,7 @@ int main()
 	//int interpolation 滤波方式，这里选则线性滤波
 	remap(src, des, mat_x,mat_y, INTER_LINEAR);
 
-	imshow("resule", des);
+	imshow("result", des);
 	
 	waitKey(0);
 	return 0;
