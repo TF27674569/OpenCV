@@ -8,7 +8,7 @@ using namespace cv;
 using namespace std;
 
 
-
+/*
 int main()
 {
 	//Mat src = imread("C:/Users/ubt/Desktop/gl.png");
@@ -98,3 +98,4 @@ int main()
 	waitKey(0);
 	return 0;
 }
+*/
