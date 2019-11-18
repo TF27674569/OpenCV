@@ -7,7 +7,7 @@
 using namespace cv;
 using namespace std;
 
-
+/*
 int main()
 {
 	//Mat src = imread("C:/Users/ubt/Desktop/2_04.png");
@@ -117,3 +117,4 @@ int main()
 	waitKey(0);
 	return 0;
 }
+*/
