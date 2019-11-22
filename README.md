@@ -13,3 +13,5 @@
 [色彩空间与直方均衡](https://github.com/TF27674569/OpenCV/blob/master/md/%EF%BC%88%E4%B9%9D%EF%BC%89%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%9B%B4%E6%96%B9%E5%9B%BE.md)</br>
 [直方图的比较](https://github.com/TF27674569/OpenCV/blob/master/md/%EF%BC%88%E5%8D%81%EF%BC%89%E7%9B%B4%E6%96%B9%E5%9B%BE%E7%9A%84%E6%AF%94%E8%BE%83.md)</br>
 [QQ说说的图像效果实现](https://github.com/TF27674569/OpenCV_Android_Image)
+[封装java层的sdk模型](https://github.com/TF27674569/encapsulation_javasdk_from_ndk)
+
