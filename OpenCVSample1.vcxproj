@@ -131,6 +131,7 @@
     <ClCompile Include="OpenCV10.cpp" />
     <ClCompile Include="OpenCV11.cpp" />
     <ClCompile Include="OpenCV12.cpp" />
+    <ClCompile Include="OpenCV13.cpp" />
     <ClCompile Include="OpenCV2.cpp" />
     <ClCompile Include="OpenCV3.cpp" />
     <ClCompile Include="OpenCV4.cpp" />
