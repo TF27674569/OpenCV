@@ -66,7 +66,7 @@ int main()
 	waitKey(0);
 	return 0;
 }
-*/
+
 
 int main()
 {
@@ -76,7 +76,6 @@ int main()
 	cvtColor(src, gray, CV_BGR2GRAY);
 	blur(gray, gray, Size(3, 3));
 	Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3));
-	cout << kernel << endl;
 
 
 	/// 对图像进行二值化
@@ -107,3 +106,4 @@ int main()
 	waitKey(0);
 	return 0;
 }
+*/
