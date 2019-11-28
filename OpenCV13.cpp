@@ -43,7 +43,7 @@ void blur(const Mat& src, Mat& dst, int size) {
 			// 对各个颜色通道进行处理
 			for (int i = 0; i < channels; i++)
 			{
-				// 获取四个点在积分图中的值
+				// 获取四个点在积分图中的值 每个点存的是局部颜色值的和，所以值求出的值会被放大，故使用Vec3i用每个通道用int取读，存的时候也是存的CV_32S的int
 				int lt = sum.at<Vec3i>(y0, x0)[i];
 				int rt = sum.at<Vec3i>(y0, x1)[i];
 				int lb = sum.at<Vec3i>(y1, x0)[i];
@@ -58,11 +58,9 @@ void blur(const Mat& src, Mat& dst, int size) {
 
 		}
 	}
-
-
 }
 
-
+/*
 int main()
 {
 	Mat src = imread("C:/Users/ubt/Desktop/test.txt");
@@ -83,3 +81,4 @@ int main()
 	waitKey(0);
 	return 0;
 }
+*/
