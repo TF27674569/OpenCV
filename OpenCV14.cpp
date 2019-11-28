@@ -145,7 +145,7 @@ void skinMerge(const Mat &src, const Mat& blur, const Mat& skin, Mat& skinMerge)
 
 }
 
-
+/*
 int main()
 {
 	Mat src = imread("C:/Users/ubt/Desktop/demo1.png");
@@ -181,3 +181,4 @@ int main()
 	waitKey(0);
 	return 0;
 }
+*/
