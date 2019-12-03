@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>D:\opencv\opencv\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\opencv\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\opencv\opencv\build\include;D:\ZBar\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\opencv\opencv\build\x64\vc14\lib;D:\ZBar\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -93,7 +93,8 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>opencv_world344d.lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>opencv_world344d.lib;libzbar-0.lib;libzbar64-0.lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libzbar-0.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -133,6 +134,7 @@
     <ClCompile Include="OpenCV12.cpp" />
     <ClCompile Include="OpenCV13.cpp" />
     <ClCompile Include="OpenCV14.cpp" />
+    <ClCompile Include="OpenCV15.cpp" />
     <ClCompile Include="OpenCV2.cpp" />
     <ClCompile Include="OpenCV3.cpp" />
     <ClCompile Include="OpenCV4.cpp" />

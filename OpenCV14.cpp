@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <opencv2/opencv.hpp>
 #include <iostream>
-#include "OpenCV14.h"
 
 #pragma comment(lib,"opencv_world344d.lib")
 
