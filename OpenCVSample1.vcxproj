@@ -135,6 +135,7 @@
     <ClCompile Include="OpenCV13.cpp" />
     <ClCompile Include="OpenCV14.cpp" />
     <ClCompile Include="OpenCV15.cpp" />
+    <ClCompile Include="OpenCV16.cpp" />
     <ClCompile Include="OpenCV2.cpp" />
     <ClCompile Include="OpenCV3.cpp" />
     <ClCompile Include="OpenCV4.cpp" />
@@ -144,9 +145,11 @@
     <ClCompile Include="OpenCV8.cpp" />
     <ClCompile Include="OpenCV9.cpp" />
     <ClCompile Include="OpenCV_YZM.cpp" />
+    <ClCompile Include="QRCodeCorrection.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\ubt\Desktop\opencv_7.png" />
+    <Image Include="C:\Users\ubt\Desktop\opencv\qr4.jpg" />
+    <Image Include="C:\Users\ubt\people.jpeg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

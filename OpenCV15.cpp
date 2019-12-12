@@ -197,7 +197,7 @@ bool isYCorner(const Mat& qrROI) {
 	return true;
 }
 
-
+/*
 int main()
 {
 	Mat src = imread("C:/Users/ubt/Desktop/opencv/qr2.jpg");
@@ -226,6 +226,7 @@ int main()
 	vector<vector<Point>> contours;
 	findContours(gray, contours, CV_RETR_LIST, CV_CHAIN_APPROX_SIMPLE);
 
+	imshow("contours", gray);
 
 	float angle = 0.0f;
 
@@ -300,13 +301,14 @@ int main()
 		cout << "条码：" << endl << symbol->get_data() << endl << endl;
 	}
 
+	imageZbar.set_data(NULL, 0);//清除缓存
+
 	//显示二维码
 	imshow("Source Image", dst);
 	waitKey();
-	imageZbar.set_data(NULL, 0);//清除缓存
 
 
 	waitKey(0);
 	return 0;
 }
-
+*/

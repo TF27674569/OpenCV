@@ -63,9 +63,18 @@
     <ClCompile Include="OpenCV15.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="OpenCV16.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QRCodeCorrection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\ubt\Desktop\opencv_7.png">
+    <Image Include="C:\Users\ubt\people.jpeg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\ubt\Desktop\opencv\qr4.jpg">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
